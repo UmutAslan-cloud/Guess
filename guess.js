@@ -6,13 +6,13 @@
  * Puanlandirma yapilacak
  * 
  */
- let hak = 4;
+let hak = 4;
 let guess, sayac = 0;
 let number = Math.floor((Math.random() * 10) + 1);
 console.log(number);
 
 
- /*  while (hak > 0) {
+while (hak > 0) {
     //Kullanici her bilemediginde  hak 1 tane azalmasi gerekiyor
     hak--;
     sayac++;
@@ -22,7 +22,7 @@ console.log(number);
         //Bildigimiz soru hesaba katilmayacak o nedenle sayac-1
         console.log(`Puan: ${100-(25)*(sayac-1)}`);
         break;
-} else if (number > guess) {
+    } else if (number > guess) {
         console.log("On Vagon");
     } else {
         console.log("Arka Vagon");
@@ -30,11 +30,11 @@ console.log(number);
     if (hak == 0) {
         console.log("Hakkiniz bitti");
     }
-}   
- */
+}
 
 
-for (let hak = 3; hak >= 0; hak--) {
+
+/* for (let hak = 3; hak >= 0; hak--) {
     sayac++;
     guess = Number(prompt("Vagon numarasi giriniz"))
     if (number == guess) {
@@ -51,4 +51,4 @@ for (let hak = 3; hak >= 0; hak--) {
     if (hak == 0) {
         console.log("Hakkiniz bitti");
     }
-}  
+}   */
